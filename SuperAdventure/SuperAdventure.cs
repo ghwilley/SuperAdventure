@@ -8,33 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Engine;
+
 namespace SuperAdventure
 {
     public partial class SuperAdventure : Form
     {
+        private Player _player;
+
         public SuperAdventure()
         {
             InitializeComponent();
         }
+       
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnTest_Click(object sender, EventArgs e)
-        {
-            lblGold.Text = "123";
-        }
     }
 }
