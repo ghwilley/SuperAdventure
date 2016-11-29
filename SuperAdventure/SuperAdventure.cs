@@ -21,11 +21,7 @@ using Engine;
         {
             InitializeComponent();
 
-
-            Location location = new Location();
-            location.ID = 1;
-            location.Name = "Home";
-            location.Description = "This is your house.";
+            Location location = new Location(1,"Home","This is your house.");
 
             _player = new Player();
 
